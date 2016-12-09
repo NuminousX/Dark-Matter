@@ -1,0 +1,36 @@
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+.loginpage {
+	background-image: url("starfieldBG.jpg");
+	background-size: cover;
+	margin: 0px;
+	padding: 0px;
+}
+
+input[type="text"] {
+	background-color: hsla(216, 100%, 1%, 1);
+	height: 48px;
+	display: block;
+	padding: 16px, 24px;
+	position: relative;
+	width: 100%;
+	opacity: 1.0;
+	border-radius: 2%;
+	border-color: hsla(360, 100%, 100%, 1);
+	border-width: 2px;
+}
+
+input[type="password"] {
+	background-color: transparent;
+	height: 48px;
+	display: block;
+	padding: 16px, 24px;
+	position: relative;
+	width: 100%;
+	opacity: 1.0;
+	border-radius: 2%;
+	border-width: 2px;
+}

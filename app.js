@@ -43,7 +43,7 @@ app.get("/registration", (req, res) => {
 })
 
 //Make the server listen on part 8080
-app.listen(8947, ( ) => {
+app.listen(8000, ( ) => {
 	console.log("verifying data....")
 	console.log("Dynamic content mapped")
 	console.log("checking Data uplink...")
