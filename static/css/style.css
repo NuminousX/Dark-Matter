@@ -10,6 +10,8 @@ body {
 	padding: 0px;
 }
 
+
+
 input[type="text"] {
 	background-color: hsla(216, 100%, 1%, 1);
 	height: 48px;
@@ -33,4 +35,16 @@ input[type="password"] {
 	opacity: 1.0;
 	border-radius: 2%;
 	border-width: 2px;
+}
+
+.galaxy {
+	background-image: url("milky way.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.solar {
+	background-image: url("solarsystem.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
 }
